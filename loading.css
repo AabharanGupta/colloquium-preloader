@@ -1,136 +1,154 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 body {
-  background-color: #f7d281;
+	background-color: #333;
 }
 
 .loader path:nth-child(1) {
-  stroke: #f23c27;
-  stroke-dasharray: 187;
-  stroke-dashoffset: 187;
-  fill: #f7d281;
-  animation: draw2 2s ease-in forwards;
-  animation-delay: 3000ms;
+	stroke: #f23c27;
+	stroke-dasharray: 216;
+	stroke-dashoffset: 216;
+	fill: #333;
+	animation: draw2 2s ease-in forwards;
+	animation-delay: 3000ms;
 }
 
 .loader path:nth-child(2) {
-  stroke-dasharray: 235;
-  stroke-dashoffset: 235;
-  stroke: #1b729f;
-  fill: #f7d281;
-  animation: draw 2s ease-in forwards;
-  animation-delay: 2700ms;
+	stroke: #f23c27;
+	stroke-dasharray: 141;
+	stroke-dashoffset: 141;
+	fill: #333;
+	animation: draw2 2s ease-in forwards;
+	animation-delay: 2700ms;
 }
 
 .loader path:nth-child(3) {
-  stroke-dasharray: 158;
-  stroke-dashoffset: 158;
-  stroke: #1b729f;
-  fill: #f7d281;
-  animation: draw 2s ease-in forwards;
-  animation-delay: 2400ms;
+	stroke-dasharray: 361;
+	stroke-dashoffset: 361;
+
+	stroke: #ffaa00;
+	fill: #333;
+	animation: draw 2s ease-in forwards;
+	animation-delay: 2400ms;
 }
 
 .loader path:nth-child(4) {
-  stroke-dasharray: 125;
-  stroke-dashoffset: 125;
-  stroke: #1b729f;
-  fill: #f7d281;
-  animation: draw 2s ease-in forwards;
-  animation-delay: 2100ms;
+	stroke-dasharray: 227;
+	stroke-dashoffset: 227;
+
+	stroke: #ffaa00;
+	fill: #333;
+	animation: draw 2s ease-in forwards;
+	animation-delay: 2100ms;
 }
 
 .loader path:nth-child(5) {
-  stroke-dasharray: 158;
-  stroke-dashoffset: 158;
-  animation: draw 2s ease-in forwards;
-  stroke: #1b729f;
-  animation-delay: 1800ms;
-  fill: #f7d281;
+	stroke-dasharray: 121;
+	stroke-dashoffset: 121;
+	animation: draw 2s ease-in forwards;
+	animation-delay: 1800ms;
+
+	stroke: #ffaa00;
+	fill: #333;
 }
 
 .loader path:nth-child(6) {
-  stroke-dasharray: 173;
-  stroke-dashoffset: 173;
-  animation: draw 2s ease-in forwards;
-  stroke: #1b729f;
-  animation-delay: 1500ms;
-  fill: #f7d281;
+	stroke-dasharray: 227;
+	stroke-dashoffset: 227;
+	animation: draw 2s ease-in forwards;
+	animation-delay: 1500ms;
+
+	stroke: #ffaa00;
+	fill: #333;
 }
 
 .loader path:nth-child(7) {
-  stroke-dasharray: 127;
-  stroke-dashoffset: 127;
-  animation: draw 2s ease-in forwards;
-  stroke: #1b729f;
-  fill: #f7d281;
-  animation-delay: 1200ms;
+	stroke-dasharray: 240;
+	stroke-dashoffset: 240;
+	animation: draw 2s ease-in forwards;
+
+	stroke: #ffaa00;
+	fill: #333;
+	animation-delay: 1200ms;
 }
 
 .loader path:nth-child(8) {
-  stroke-dasharray: 102;
-  stroke-dashoffset: 102;
-  animation: draw 2s ease-in forwards;
-  stroke: #1b729f;
-  fill: #f7d281;
-  animation-delay: 900ms;
+	stroke-dasharray: 217;
+	stroke-dashoffset: 217;
+	animation: draw 2s ease-in forwards;
+
+	stroke: #ffaa00;
+	fill: #333;
+	animation-delay: 900ms;
 }
 
 .loader path:nth-child(9) {
-  stroke-dasharray: 102;
-  stroke-dashoffset: 102;
-  stroke: #1b729f;
-  animation: draw 2s ease-in forwards;
-  fill: #f7d281;
-  animation-delay: 600ms;
+	stroke-dasharray: 146;
+	stroke-dashoffset: 146;
+	animation: draw 2s ease-in forwards;
+	animation-delay: 600ms;
+
+	stroke: #ffaa00;
+	fill: #333;
 }
 
 .loader path:nth-child(10) {
-  stroke-dasharray: 127;
-  fill: #f7d281;
-  stroke-dashoffset: 127;
-  animation: draw 2s ease-in forwards;
-  stroke: #1b729f;
-  animation-delay: 300ms;
+	stroke-dasharray: 146;
+	stroke-dashoffset: 146;
+	animation: draw 2s ease-in forwards;
+
+	stroke: #ffaa00;
+	fill: #333;
+	animation-delay: 300ms;
 }
 
 .loader path:nth-child(11) {
-  stroke-dasharray: 175;
-  stroke-dashoffset: 175;
-  fill: #f7d281;
-  animation: draw 2s ease-in forwards;
-  stroke: #1b729f;
+	stroke-dasharray: 216;
+	stroke-dashoffset: 216;
+	animation: draw 2s ease-in forwards;
+
+	stroke: #ffaa00;
+	fill: #333;
+}
+
+.loader path:nth-child(12) {
+	stroke-dasharray: 167;
+	stroke-dashoffset: 167;
+	animation: draw 2s ease-in forwards;
+
+	stroke: #ffaa00;
+	fill: #333;
 }
 
 @keyframes draw {
-  50% {
-    fill: #f7d281;
-  }
+	50% {
+		fill: #333;
+	}
 
-  100% {
-    stroke-dashoffset: 0;
-    fill: #1b729f;
-  }
+	100% {
+		stroke-dashoffset: 0;
+		fill: #ffaa00;
+	}
 }
 
 @keyframes draw2 {
-  50% {
-    fill: #f7d281;
-  }
+	50% {
+		fill: #333;
+	}
 
-  100% {
-    stroke-dashoffset: 0;
-    fill: #f23c27;
-  }
+	100% {
+		stroke-dashoffset: 0;
+		fill: #f23c27;
+	}
 }
